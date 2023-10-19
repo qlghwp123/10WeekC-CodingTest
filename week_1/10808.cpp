@@ -7,18 +7,6 @@ using namespace std;
 
 int main(void)
 {
-    string S;
-    int ret[26] = {
-        0,
-    };
-
-    cin >> S;
-
-    for (auto i : S)
-        ret[i - 'a']++;
-
-    for (auto i : ret)
-        cout << i << ' ';
 
     return 0;
 }
